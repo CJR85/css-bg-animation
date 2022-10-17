@@ -11,4 +11,14 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+section i {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #222;
+  gap: 10px;
 }
